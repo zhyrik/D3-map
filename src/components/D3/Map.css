@@ -1,0 +1,12 @@
+.district + .text{
+    fill: transparent;
+    font-size: 30px;
+}
+.district:hover{
+    fill: black;
+    cursor: pointer;
+}
+.district:hover + .text{
+    transition: all 0.3s;
+    fill: black;
+}
